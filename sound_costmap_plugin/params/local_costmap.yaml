@@ -1,0 +1,12 @@
+local_costmap:
+  ros__parameters:
+    plugin_names: ["obstacle_layer", "inflation_layer", "sound_layer"]
+    plugin_types: [
+      "nav2_costmap_2d::ObstacleLayer",
+      "nav2_costmap_2d::InflationLayer",
+      "sound_costmap_plugin::SoundLayer"
+    ]
+
+    sound_layer:
+      enabled: true
+      lethal_radius: 2.0  # Радиус, в котором ставим LETHAL

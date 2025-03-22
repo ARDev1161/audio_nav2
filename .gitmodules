@@ -1,0 +1,6 @@
+[submodule "audio_utils"]
+	path = audio_utils
+	url = https://github.com/introlab/audio_utils.git
+[submodule "odas_ros"]
+	path = odas_ros
+	url = git@github.com:ARDev1161/odas_ros.git

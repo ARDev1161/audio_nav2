@@ -1,0 +1,5 @@
+<library path="libsound_costmap_plugin.so">
+  <class name="sound_costmap_plugin::SoundLayer" type="sound_costmap_plugin::SoundLayer" base_class_type="nav2_costmap_2d::Layer">
+    <description>Sound layer that marks costmap areas to avoid certain sounds</description>
+  </class>
+</library>
